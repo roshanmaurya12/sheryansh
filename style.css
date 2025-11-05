@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "Buttermilk";
+  src: url("/Buttermilk.ttf") ;
+
+}
+
+body {
+  background-image: url("/moon.jpg"); /* Path to your image */
+  background-size: cover; /* Makes it fill the screen */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents repeating */
+  height: 100vh; /* Full screen height */
+  margin: 0;
+}
+
+
+h1 {
+  position: absolute;
+  top: 30%;    /* adjust this value to move vertically */
+  left: 50%;   /* adjust this value to move horizontally */
+  transform: translate(-45%, -50%); /* keeps text centered relative to that point */
+  font-family: buttermilk;
+  color: white;
+  font-size: 15rem;
+  text-align: center;
+  padding: 20px 40px;
+  border-radius: 10px;
+}
+    
